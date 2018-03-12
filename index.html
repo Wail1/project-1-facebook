@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.">
+  <title>Facebook</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+  <!-- header -->
+  <div id="header">
+    <div class="container">
+      <div class="float-left">
+        <a href="index.html" id="logo">Facebook</a>
+      </div>
+      <div class="float-right">
+        <!--منطقة حقل الإيميل -->
+        <div class="login-box">
+          <div> <label for="email">Email or Phone</label> </div>
+          <div><input type="email" id="email" autofocus></div> <!-- يتم تفعيل حقل إدخال الإيميل بشكل تلقائي لتبدأ بكتابة إيميلك دون الحاجة بتحديد الحقل بإستخدام المأوس : autofocus -->
+        </div>
+        <!--منطقة حقل الباسورد -->
+        <div class="login-box">
+          <div> <label for="password">Password</label> </div>
+          <div> <input type="password" id="password"> </div>
+          <div><a href="#">Forgot account?</a></div>
+        </div>
+        <!--منطقة زر تسجيل الدخول -->
+        <div class="login-box">
+          <input type="submit" value="Log In">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- main -->
+<div id="main">
+  <div class="container">
+    <div class="float-left">
+      <div class="description">
+         Facebook helps you connect and share with the people in your life.
+			</div>
+			<div>
+				<img src="img/map.png" alt="">
+			</div>
+    </div>
+    <div class="float-right">
+      <form>
+      	<table>
+               <!--الصف الأول -->
+      		<tr>
+      			<td colspan="2">
+              <h2> Create an account </h2>
+            </td>
+      		</tr>
+
+      		<!--الصف الثاني -->
+      		<tr>
+      			<td colspan="2">
+              <span>It's free and always will be.</span>
+            </td>
+      		</tr>
+
+      		<!--الصف الثالث -->
+      		<tr>
+      			<td>
+              <input type="text" placeholder="First name">
+            </td>
+      			<td>
+              <input type="text" placeholder="Surname">
+            </td>
+      		</tr>
+
+      		<!--الصف الرابع -->
+      		<tr>
+      			<td colspan="2">
+              <input type="email" placeholder="Mobile number or email address">
+            </td>
+      		</tr>
+
+      		<!--الصف الخامس -->
+      		<tr>
+      			<td colspan="2">
+              <input type="password" placeholder="New password">
+            </td>
+      		</tr>
+
+      		<!--الصف السادس -->
+      		<tr>
+      			<td colspan="2">
+              <span>Birthday</span>
+            </td>
+      		</tr>
+
+      		<!--الصف السابع -->
+      		<tr>
+            <!--خلية حقول تاريخ الميلاد-->
+          	<td>
+          		<!--حقل إختيار اليوم -->
+          		<select>
+          			<option>Day</option>
+          			<option>1</option>
+          			<option>2</option>
+                <option>3</option>
+          			<option>4</option>
+          		</select>
+          		<!--حقل إختيار الشهر-->
+          		<select>
+          			<option>Month</option>
+          			<option>Jan</option>
+          			<option>Feb</option>
+                <option>Mar</option>
+          			<option>Apr</option>
+                <option>May</option>
+          			<option>Jun</option>
+          		</select>
+          		<!--حقل إختيار السنة-->
+          		<select>
+          			<option>Year</option>
+          			<option>2018</option>
+          			<option>2017</option>
+          		</select>
+
+          	</td>
+          	<!--خلية الرابط -->
+          	<td>
+          		<a href="#"> Why do I need to provide my date of birth? </a>
+          	</td>
+      		</tr>
+
+      		<!--الصف الثامن -->
+      		<tr>
+      			<td colspan="2">
+              <div>
+          			<input type="radio" id="female" name="gender"><!-- سنقوم باعطاء زري راديو اسم موحد وذلك حتى لا يتم السماح إلى بإختيار أحدهما وليس الجنسين مع بعض :name="gender" -->
+          			<label for="female">Female</label>
+          		</div>
+          		<div>
+          			<input type="radio" id="male" name="gender">
+          			<label for="male">Male</label>
+          		</div>
+            </td>
+      		</tr>
+
+      		<!--الصف التاسع -->
+      		<tr>
+      			<td colspan="2">
+              <p>
+                By clicking Create Account, you agree to our <a href="#"> Terms</a> and confirm that you have read our <a href="#"> Data Policy</a> , including our <a href="#"> Cookie Use Policy</a>. You may receive SMS message notifications from Facebook and can opt out at any time
+        		  </p>
+            </td>
+      		</tr>
+
+      		<!--الصف العاشر -->
+      		<tr>
+      			<td colspan="2">
+              <input type="submit" value="Create Account">
+            </td>
+      		</tr>
+
+      		<!--الصف الحادي عشر -->
+      		<tr>
+      			<td colspan="2">
+              <p><a href="#">Create a Page </a> for a celebrity, band or business.</p>
+            </td>
+      		</tr>
+
+      	</table>
+      </form>
+    </div>
+	</div>
+</div>
+<!-- footer -->
+<div id="footer">
+  <div class="container">
+
+		<div class="languages">
+      <ul>
+				<li>English (US)</li>
+        <li><a href="#">االعربية</a></li>
+				<li><a href="#">Türkçe</a></li>
+				<li><a href="#">Français (France)</a></li>
+				<li><a href="#">日本語</a></li>
+				<li><a href="#">Български</a></li>
+				<li><a href="#">Русский</a></li>
+				<li><a href="#">हिन्दी</a></li>
+				<li><a href="#">Polski</a></li>
+				<li><a href="#">Español (España)</a></li>
+				<li><a href="#">Português (Brasil)</a></li>
+				<li><a href="#" class="more-lang"><i class="plus-icon"></i></a></li>
+			</ul>
+		</div>
+
+    <div class="links">
+			<ul>
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Log In</a></li>
+				<li><a href="#">Messenger</a></li>
+				<li><a href="#">Facebook Lite</a></li>
+				<li><a href="#">Mobile</a></li>
+				<li><a href="#">Find Friends</a></li>
+				<li><a href="#">People</a></li>
+				<li><a href="#">Pages</a></li>
+				<li><a href="#">Places</a></li>
+				<li><a href="#">Games</a></li>
+				<li><a href="#">Locations</a></li>
+				<li><a href="#">Celebrities</a></li>
+				<li><a href="#">Marketplace</a></li>
+				<li><a href="#">Groups</a></li>
+				<li><a href="#">Recipes</a></li>
+				<li><a href="#">Sports</a></li>
+				<li><a href="#">Look</a></li>
+				<li><a href="#">Moments</a></li>
+				<li><a href="#">Instagram</a></li>
+				<li><a href="#">Local</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Create ad</a></li>
+				<li><a href="#">Create Page</a></li>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Cookies</a></li>
+				<li><a href="#">AdChoices <i class="ad-choices"></i></a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
+		</div>
+
+    <div class="copy-rights">
+	     Facebook &copy; 2018
+    </div>
+
+	</div>
+</div>
+
+</body>
+</html>
